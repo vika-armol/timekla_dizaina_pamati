@@ -1,0 +1,141 @@
+.bubble-layout {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    margin-top: 50px;
+}
+
+/* GENERAL BUBBLE */
+
+.tech-bubble {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    transition: 0.35s ease;
+    box-shadow:
+        0 15px 30px rgba(0,0,0,0.12);
+}
+
+.tech-bubble:hover {
+    transform: scale(1.08);
+}
+
+/* CENTER BUBBLE */
+
+.center-bubble {
+    width: 260px;
+    height: 260px;
+    font-size: 2rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-bubble:hover {
+    transform: translate(-50%, -50%) scale(1.08);
+}
+
+/* MEDIUM */
+
+.medium {
+    width: 170px;
+    height: 170px;
+    font-size: 1.2rem;
+}
+
+/* SMALL */
+
+.small {
+    width: 120px;
+    height: 120px;
+    font-size: 0.9rem;
+}
+
+/* POSITIONS */
+
+.bubble-github {
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bubble-discord {
+    left: 12%;
+    top: 220px;
+}
+
+.bubble-figma {
+    right: 10%;
+    top: 200px;
+}
+
+.bubble-html {
+    left: 22%;
+    bottom: 130px;
+}
+
+.bubble-css {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bubble-js {
+    right: 18%;
+    bottom: 120px;
+}
+
+.bubble-estudijas {
+    top: 120px;
+    right: 28%;
+}
+
+.bubble-teams {
+    bottom: 230px;
+    left: 30%;
+}
+
+/* COLORS */
+
+.primary {
+    background:
+        linear-gradient(
+            135deg,
+            #45151b,
+            #6d2630
+        );
+}
+
+.secondary {
+    background:
+        linear-gradient(
+            135deg,
+            #c74e51,
+            #df6b6d
+        );
+}
+
+.orange {
+    background:
+        linear-gradient(
+            135deg,
+            #f99256,
+            #ffad7f
+        );
+}
+
+.pink {
+    background:
+        linear-gradient(
+            135deg,
+            #ea9dae,
+            #f3b4c1
+        );
+}

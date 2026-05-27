@@ -1,0 +1,53 @@
+.header {
+
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background-color: rgba(69, 21, 27, 0.92);
+
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
+}
+
+.logo h3 {
+
+    color: white;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 1.3rem;
+}
+
+.navigation {
+
+    display: flex;
+
+    gap: 30px;
+}
+
+.navigation a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 0.95rem;
+
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+
+    color: var(--accent);
+}

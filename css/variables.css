@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fbde9c;
+    color: #1b1b1b;
+    font-family: "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+:root {
+    --primary: #45151b;
+    --secondary: #c74e51;
+    --accent: #ea9dae;
+    --orange: #f99256;
+    --background: #fbde9c;
+    --white: #ffffff;
+    --text: #1b1b1b;
+}
