@@ -15,6 +15,31 @@ body {
     line-height: 1.7;
 }
 
+.tooltip {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.85);
+    color: var(--primary);
+    padding: 10px 14px;
+    border-radius: 14px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(69, 21, 27, 0.15);
+    backdrop-filter: blur(10px);
+    pointer-events: none;
+    opacity: 0;
+    transform: translate(-50%, -130%) scale(0.95);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 9999;
+    white-space: nowrap;
+}
+
+.tooltip.show {
+    opacity: 1;
+    transform: translate(-50%, -140%) scale(1);
+}
+
 :root {
     --primary: #45151b;
     --secondary: #c74e51;

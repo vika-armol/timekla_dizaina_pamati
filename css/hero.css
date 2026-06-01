@@ -6,14 +6,14 @@
             rgba(69, 21, 27, 0.45),
             rgba(69, 21, 27, 0.45)
         ),
-        url("../photos/hero_3.jpeg");
+        url("../photos/hero.jpeg");
 
     background-size: cover;
-    background-position: center;
+    background-position: center 49%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: right;
+    text-align: right;
     padding: 0 10%;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .hero-text {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
+    font-size: 1.15rem;
+    margin-bottom: 10px;
 }
 
 .hero-button {
@@ -56,4 +56,27 @@
 .hero-button:hover {
     transform: translateY(-3px);
     background-color: var(--secondary);
+}
+
+.hero-signature {
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.75);
+}
+
+.site-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+}
+
+.author-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--orange);
 }

@@ -51,3 +51,10 @@
 
     line-height: 1.7;
 }
+
+.highlight-card {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border: 2px solid var(--primary);
+    transition: 0.3s ease;
+}
