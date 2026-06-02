@@ -267,8 +267,7 @@ days.forEach(day => {
 
                 eventBlock.addEventListener("click", () => {
                     document.getElementById("arpus").scrollIntoView({
-                        behavior: "smooth",
-                        block: "center"
+                        behavior: "smooth"
                     });
                 });
             }

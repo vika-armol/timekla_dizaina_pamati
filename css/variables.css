@@ -9,10 +9,27 @@ html {
 }
 
 body {
-    background-color: #fbde9c;
-    color: #1b1b1b;
+    background-color: var(--background);
+    color: var(--text);
     font-family: "Times New Roman", serif;
     line-height: 1.7;
+    transition:
+        background-color 0.4s ease,
+        color 0.4s ease;
+}
+
+.section-description {
+    max-width: 650px;
+    margin: 18px auto 0;
+    padding: 15px 25px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text);
+    background: rgba(255,255,255,0.35);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 18px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
 }
 
 .tooltip {
@@ -48,4 +65,37 @@ body {
     --background: #fbde9c;
     --white: #ffffff;
     --text: #1b1b1b;
+    --card-bg: rgba(255,255,255,0.7);
+}
+
+.theme-toggle {
+    background: var(--card-bg);
+    border: 1px solid rgba(255,255,255,0.1);
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 12px;
+
+    transition: 0.3s ease;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-2px);
+}
+
+.theme-toggle img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover img {
+    transform: rotate(15deg) scale(1.1);
 }

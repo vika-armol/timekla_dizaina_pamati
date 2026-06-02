@@ -69,13 +69,13 @@
 /* POSITIONS */
 
 .bubble-github {
-    top: 220px;
+    top: 140px;
     left: 20%;
 }
 
 .bubble-discord {
     left: 10%;
-    top: 1px;
+    bottom: 120px;
 }
 
 .bubble-figma {
@@ -85,7 +85,7 @@
 
 .bubble-html {
     left: 1%;
-    top: 200px;
+    top: 180px;
 }
 
 .bubble-css {
@@ -94,21 +94,22 @@
 }
 
 .bubble-js {
-    right: 15%;
-    bottom: 230px;
+    right: 12%;
+    bottom: 220px;
 }
 
 .bubble-estudijas {
+    bottom: 200px;
     right: 28%;
 }
 
 .bubble-teams {
-    bottom: 250px;
+    bottom: 230px;
     left: 28%;
 }
 
 .bubble-intellij {
-    bottom: 340px;
+    bottom: 320px;
     right: 88%;
 }
 
