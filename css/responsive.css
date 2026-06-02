@@ -1,28 +1,22 @@
 @media (max-width: 992px) {
-
     .section-grid,
     .cards-container,
     .digital-grid,
     .gallery {
-
         grid-template-columns: 1fr;
     }
 
     .hero h1 {
-
         font-size: 3rem;
     }
 
     .navigation {
-
         display: none;
     }
 }
 
 @media (max-width: 768px) {
-
     .hero h1 {
-
         font-size: 2.3rem;
     }
 

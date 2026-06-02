@@ -63,18 +63,13 @@
     width: 70px;
     height: 70px;
     min-width: 70px;
-
     border-radius: 50%;
-
     background:var(--accent);
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     box-shadow:
         0 8px 18px rgba(0,0,0,0.08);
-
     overflow: hidden;
 }
 
@@ -89,7 +84,7 @@
 .bag-text h3 {
     margin-bottom: 10px;
     font-family: "Poppins", sans-serif;
-    color: var(--primary);
+    color: #45151b;
 }
 
 .bag-text p {

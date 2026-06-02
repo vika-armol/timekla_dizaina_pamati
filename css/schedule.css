@@ -10,7 +10,6 @@
     border-radius: 35px;
     padding: 0px 30px 30px 30px;
     backdrop-filter: blur(18px);
-    border: 1px solid rgba(255,255,255,0.45);
     box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
@@ -42,14 +41,14 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--primary);
-    border-bottom: 1px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid var(--schedule);
 }
 
 /* TIME COLUMN */
 
 .time-column {
     position: relative;
-    border-right: 1px solid rgba(0,0,0,0.08);
+    border-right: 1px solid var(--schedule);
 }
 
 .hour-label {
@@ -58,14 +57,14 @@
     transform: translate(-50%, -50%);
     font-size: 0.8rem;
     font-family: "Poppins", sans-serif;
-    color: #666;
+    color: var(--schedule-cover);
 }
 
 /* DAY COLUMN */
 
 .day-column {
     position: relative;
-    border-right: 1px solid rgba(0,0,0,0.08);
+    border-right: 1px solid var(--schedule);
 }
 
 .day-column:last-child {
@@ -75,7 +74,7 @@
 /* GRID LINES */
 
 .grid-line {
-    border-bottom: 1px solid rgba(0,0,0,0.06);
+    border-bottom: 1px solid var(--schedule);
 }
 
 /* EVENTS */

@@ -1,17 +1,11 @@
 .footer {
-
-    background-color: var(--primary);
-
+    background-color: #45151b;
     color: white;
-
     text-align: center;
-
     padding: 50px 20px;
 }
 
 .footer h3 {
-
     font-family: "Poppins", sans-serif;
-
     margin-bottom: 10px;
 }

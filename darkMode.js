@@ -2,13 +2,13 @@ const toggleBtn = document.getElementById("theme-toggle");
 const icon = document.getElementById("theme-icon");
 
 toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+    document.body.classList.toggle("dark");
 
-    if (document.body.classList.contains("dark-mode")) {
-        icon.src = "photos/laptop.png";
-        icon.alt = "Light mode";
+    if (document.body.classList.contains("dark")) {
+        icon.src = "photos/sun.PNG";
+        icon.alt = "Gaišais režīms";
     } else {
-        icon.src = "photos/bootle.PNG";
-        icon.alt = "Dark mode";
+        icon.src = "photos/moon.PNG";
+        icon.alt = "Tumšais režīms";
     }
 });

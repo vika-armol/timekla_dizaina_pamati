@@ -26,7 +26,7 @@
     font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    color: var(--accent);
+    color: #ea9dae;
 }
 
 .hero h1 {
@@ -44,7 +44,7 @@
 .hero-button {
     display: inline-block;
     padding: 15px 35px;
-    background-color: var(--orange);
+    background-color: #f99256;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -55,7 +55,7 @@
 
 .hero-button:hover {
     transform: translateY(-3px);
-    background-color: var(--secondary);
+    background-color: #c74e51;
 }
 
 .hero-signature {
@@ -78,5 +78,5 @@
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    color: var(--orange);
+    color: #f99256;
 }
