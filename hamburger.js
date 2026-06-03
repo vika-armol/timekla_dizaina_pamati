@@ -5,8 +5,15 @@ const navLinks = document.querySelectorAll(".navigation a");
 hamburger.addEventListener("click", (event) => {
     event.stopPropagation();
 
-    navigation.classList.toggle("active");
-    hamburger.classList.toggle("active");
+    const menuIsOpen = navigation.classList.contains("active");
+
+    if (menuIsOpen) {
+        navigation.classList.remove("active");
+        hamburger.classList.remove("active");
+    } else {
+        navigation.classList.add("active");
+        hamburger.classList.add("active");
+    }
 
     // remove focus after click
     hamburger.blur();

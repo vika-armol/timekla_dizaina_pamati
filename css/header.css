@@ -49,10 +49,17 @@
     transition: 0.3s;
 }
 
-.hamburger:hover {
+.hamburger:hover,
+.hamburger:active,
+.hamburger.active {
     color: var(--accent);
 }
 
-.hamburger.active {
-    color: var(--accent);
+.hamburger:focus {
+    outline: none;
+    color: white;
+}
+
+.hamburger:not(.active):focus {
+    color: white;
 }
