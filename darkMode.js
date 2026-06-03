@@ -1,7 +1,7 @@
 const toggleBtn = document.getElementById("theme-toggle");
 const icon = document.getElementById("theme-icon");
 
-function toggleTheme() {
+toggleBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
 
     if (document.body.classList.contains("dark")) {
@@ -11,19 +11,4 @@ function toggleTheme() {
         icon.src = "photos/moon.PNG";
         icon.alt = "Tumšais režīms";
     }
-}
-
-// pointer events = works for mouse + touch + pen (BEST FIX)
-toggleBtn.addEventListener("pointerdown", () => {
-    toggleBtn.classList.add("pressed");
 });
-
-toggleBtn.addEventListener("pointerup", () => {
-    toggleBtn.classList.remove("pressed");
-});
-
-toggleBtn.addEventListener("pointercancel", () => {
-    toggleBtn.classList.remove("pressed");
-});
-
-toggleBtn.addEventListener("click", toggleTheme);

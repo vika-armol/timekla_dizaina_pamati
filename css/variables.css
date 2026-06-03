@@ -156,16 +156,18 @@ body.dark {
     transition: 0.3s ease;
     margin-left: auto;
 }
-/*
-.theme-toggle:hover {
-    transform: translateY(-2px);
-    background: var(--accent);
-    border-color: var(--accent);
-}
 
-.theme-toggle:hover img {
-    transform: rotate(15deg) scale(1.1);
-}*/
+@media (hover: hover) and (pointer: fine) {
+    .theme-toggle:hover {
+        transform: translateY(-2px);
+        background: var(--accent);
+        border-color: var(--accent);
+    }
+
+    .theme-toggle:hover img {
+        transform: rotate(15deg) scale(1.1);
+    }
+}
 
 .theme-toggle img {
     width: 33px;
