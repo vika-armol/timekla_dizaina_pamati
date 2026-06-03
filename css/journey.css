@@ -19,7 +19,7 @@
 
 .journey-step {
     width: 50%;
-    padding: 40px;
+    padding: 20px;
     position: relative;
 }
 
@@ -33,9 +33,8 @@
 
 .journey-content {
     background-color: white;
-    padding: 25px;
-    border-radius: 25px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 18px;
+    border-radius: 20px;
 }
 
 .journey-content h3 {
@@ -46,8 +45,8 @@
 
 .journey-image img {
     width: 100%;
-    height: 280px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 25px;
-    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }

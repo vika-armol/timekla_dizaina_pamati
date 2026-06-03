@@ -59,7 +59,7 @@ body {
     padding: 15px 25px;
     font-size: 1.05rem;
     line-height: 1.7;
-    color: var(--text);
+    color: var(--section-desk);
     background: rgba(255, 255, 255, 0.35);
     border-radius: 18px;
     backdrop-filter: blur(10px);
@@ -102,6 +102,7 @@ body {
     --card-bg: rgba(255, 255, 255, 0.7);
     --schedule: rgba(0,0,0,0.08);
     --schedule-cover: #666;
+    --section-desk: #1b1b1b;
 }
 
 body.dark {
@@ -114,6 +115,7 @@ body.dark {
     --card-bg: rgba(255,255,255,0.08);
     --schedule: rgba(255, 255, 255, 0.14);
     --schedule-cover: rgba(255,255,255,0.65);
+    --section-desk: #f4efee;
 }
 
 .theme-toggle {

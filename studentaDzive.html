@@ -31,6 +31,10 @@
             <a href="#arpus">Ārpus studiju aktivitātes</a>
         </nav>
 
+        <button class="hamburger" id="hamburger">
+            Menu
+        </button>
+
         <div class="header-right">
             <button id="theme-toggle" class="theme-toggle">
                 <img id="theme-icon" src="photos/moon.PNG" alt="Tumšais režīms">
@@ -213,7 +217,7 @@
 
             <div class="journey-step left">
                 <div class="journey-image">
-                    <img src="photos/friends.jpeg" alt="Brauciens uz studijām ar automašīnu">
+                    <img src="photos/auto.jpeg" alt="Brauciens uz studijām ar automašīnu">
                 </div>
 
                 <div class="journey-content">
@@ -230,7 +234,7 @@
 
             <div class="journey-step right">
                 <div class="journey-image">
-                    <img src="photos/friends.jpeg" alt="Brauciens uz universitāti ar vilcienu">
+                    <img src="photos/train.jpeg" alt="Brauciens uz universitāti ar vilcienu">
                 </div>
 
                 <div class="journey-content">
@@ -247,7 +251,7 @@
 
             <div class="journey-step left">
                 <div class="journey-image">
-                    <img src="photos/friends.jpeg" alt="Ierašanās Latvijas Universitātes Datorikas fakultātē">
+                    <img src="photos/university.jpeg" alt="Ierašanās Latvijas Universitātes Datorikas fakultātē">
                 </div>
 
                 <div class="journey-content">
@@ -271,9 +275,13 @@
             <h2>Mans nedēļas ritms</h2>
         </div>
 
+        <p class="schedule-scroll-hint-up">← Velciet pa kreisi vai pa labi →</p>
+
         <div class="schedule-wrapper">
             <div class="schedule-grid" id="scheduleGrid"></div>
         </div>
+
+        <p class="schedule-scroll-hint">← Velciet pa kreisi vai pa labi →</p>
     </section>
 
     <!-- SECTION 4 -->
@@ -504,6 +512,8 @@
     <div id="tooltip" class="tooltip"></div>
     <script src="lekcijuSaraksts.js"></script>
     <script src="darkMode.js"></script>
+    <script src="hamburger.js"></script>
+    <script src="bubbleMobile.js"></script>
 </body>
 
 </html>

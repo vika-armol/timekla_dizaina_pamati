@@ -163,3 +163,11 @@
     font-size: 0.88rem;
     opacity: 0.9;
 }
+
+.schedule-scroll-hint {
+    display: none;
+}
+
+.schedule-scroll-hint-up {
+    display: none;
+}
