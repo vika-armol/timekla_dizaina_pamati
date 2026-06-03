@@ -41,25 +41,23 @@
     border: none;
     cursor: pointer;
 
-    color: white;
+    color: white !important;
     font-family: "Poppins", sans-serif;
     font-size: 0.95rem;
     font-weight: 400;
 
     transition: 0.3s;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .hamburger:hover,
 .hamburger:active,
 .hamburger.active {
-    color: var(--accent);
-}
-
-.hamburger:focus {
-    outline: none;
-    color: white;
+    color: var(--accent) !important;
 }
 
 .hamburger:not(.active):focus {
-    color: white;
+    outline: none;
+    color: white !important;
 }
