@@ -52,12 +52,12 @@
 }
 
 .hamburger:hover,
-.hamburger:active,
 .hamburger.active {
     color: var(--accent) !important;
 }
 
-.hamburger:not(.active):focus {
+.hamburger:not(.active):focus,
+.hamburger:not(.active):active {
     outline: none;
     color: white !important;
 }
