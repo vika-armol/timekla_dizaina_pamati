@@ -4,12 +4,6 @@ const icon = document.getElementById("theme-icon");
 function toggleTheme() {
     document.body.classList.toggle("dark");
 
-    toggleBtn.classList.add("pressed");
-
-    setTimeout(() => {
-        toggleBtn.classList.remove("pressed");
-    }, 150);
-
     if (document.body.classList.contains("dark")) {
         icon.src = "photos/sun.PNG";
         icon.alt = "Gaišais režīms";
@@ -19,10 +13,17 @@ function toggleTheme() {
     }
 }
 
-/* Click works everywhere (desktop + mobile) */
-toggleBtn.addEventListener("click", toggleTheme);
-
-/* Mobile fix: removes “stuck press / focus” state */
-toggleBtn.addEventListener("touchend", () => {
-    toggleBtn.blur();
+// pointer events = works for mouse + touch + pen (BEST FIX)
+toggleBtn.addEventListener("pointerdown", () => {
+    toggleBtn.classList.add("pressed");
 });
+
+toggleBtn.addEventListener("pointerup", () => {
+    toggleBtn.classList.remove("pressed");
+});
+
+toggleBtn.addEventListener("pointercancel", () => {
+    toggleBtn.classList.remove("pressed");
+});
+
+toggleBtn.addEventListener("click", toggleTheme);
