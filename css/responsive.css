@@ -42,9 +42,14 @@
         font-size: 1rem;
     }
 
-    .header-right img {
-        width: 24px;
-        height: 24px;
+    .theme-toggle:hover {
+    transform: none !important;
+    background: var(--accent);
+}
+
+.theme-toggle:active {
+        background: var(--accent);
+        transform: none;
     }
 
     /* HERO SECTION */
