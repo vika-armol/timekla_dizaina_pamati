@@ -16,14 +16,14 @@ hamburger.addEventListener("click", (event) => {
     }
 
     // remove focus after click
-    hamburger.blur();
+    setTimeout(() => hamburger.blur(), 0);
 });
 
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         navigation.classList.remove("active");
         hamburger.classList.remove("active");
-        hamburger.blur();
+        setTimeout(() => hamburger.blur(), 0);
     });
 });
 
@@ -36,6 +36,10 @@ document.addEventListener("click", (event) => {
         navigation.classList.remove("active");
         hamburger.classList.remove("active");
         hamburger.blur();
+
+        if (document.activeElement === hamburger) {
+            document.activeElement.blur();
+        }
     }
 
 });

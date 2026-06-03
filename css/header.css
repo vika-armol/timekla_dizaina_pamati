@@ -49,15 +49,15 @@
     transition: 0.3s;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
+    outline: none;
 }
 
 .hamburger:hover,
-.hamburger.active {
-    color: var(--accent) !important;
+.hamburger:focus,
+.hamburger:active {
+    color: white !important;
 }
 
-.hamburger:not(.active):focus,
-.hamburger:not(.active):active {
-    outline: none;
-    color: white !important;
+.hamburger.active {
+    color: var(--accent) !important;
 }
