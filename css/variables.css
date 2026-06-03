@@ -152,3 +152,14 @@ body.dark {
 .theme-toggle:hover img {
     transform: rotate(15deg) scale(1.1);
 }
+
+.theme-toggle:active {
+    background: var(--accent);
+    transform: scale(0.95);
+    transition: 0.15s ease;
+}
+
+.theme-toggle.pressed {
+    background: var(--accent);
+    transform: scale(0.95);
+}

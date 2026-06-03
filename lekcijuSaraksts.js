@@ -165,6 +165,8 @@ const events = [
 
 ];
 
+const isMobile = window.innerWidth <= 768;
+
 const tooltip = document.getElementById("tooltip");
 
 function showTooltip(text, x, y) {
@@ -255,15 +257,17 @@ days.forEach(day => {
 
                 eventBlock.style.cursor = "pointer";
 
-                eventBlock.addEventListener("mouseenter", (e) => {
-                    showTooltip("Uzzināt vairāk!", e.clientX, e.clientY);
-                });
+                if (!isMobile) {
+                    eventBlock.addEventListener("mouseenter", (e) => {
+                        showTooltip("Uzzināt vairāk!", e.clientX, e.clientY);
+                    });
 
-                eventBlock.addEventListener("mousemove", (e) => {
-                    showTooltip("Uzzināt vairāk!", e.clientX, e.clientY);
-                });
+                    eventBlock.addEventListener("mousemove", (e) => {
+                        showTooltip("Uzzināt vairāk!", e.clientX, e.clientY);
+                    });
 
-                eventBlock.addEventListener("mouseleave", hideTooltip);
+                    eventBlock.addEventListener("mouseleave", hideTooltip);
+                }
 
                 eventBlock.addEventListener("click", () => {
                     document.getElementById("arpus").scrollIntoView({
