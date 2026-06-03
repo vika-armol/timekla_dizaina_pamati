@@ -6,6 +6,7 @@ hamburger.addEventListener("click", (event) => {
     event.stopPropagation();
 
     navigation.classList.toggle("active");
+    hamburger.classList.toggle("active");
 
     // remove focus after click
     hamburger.blur();
@@ -14,6 +15,7 @@ hamburger.addEventListener("click", (event) => {
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         navigation.classList.remove("active");
+        hamburger.classList.remove("active");
         hamburger.blur();
     });
 });
@@ -25,6 +27,7 @@ document.addEventListener("click", (event) => {
 
     if (!clickedInsideMenu && !clickedHamburger) {
         navigation.classList.remove("active");
+        hamburger.classList.remove("active");
         hamburger.blur();
     }
 
