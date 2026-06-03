@@ -172,6 +172,10 @@
         margin: 0;
     }
 
+    .bag-item:hover {
+    transform: none !important;
+}
+
     /* JOURNEY SECTION */
 
     /* JOURNEY SECTION */
@@ -603,6 +607,14 @@
     .info-card p {
         padding-left: 18px;
         padding-right: 18px;
+    }
+
+    .info-card:hover {
+        transform: none !important;
+    }
+
+    .info-card:active {
+        transform: none !important;
     }
 
     /* SPACING FOR SECTION HEADERS */
