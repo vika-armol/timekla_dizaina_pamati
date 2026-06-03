@@ -42,16 +42,6 @@
         font-size: 1rem;
     }
 
-    .theme-toggle:hover {
-    transform: none !important;
-    background: var(--accent);
-}
-
-.theme-toggle:active {
-        background: var(--accent);
-        transform: none !important;
-    }
-
     /* HERO SECTION */
 
     .hero {

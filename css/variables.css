@@ -183,3 +183,7 @@ body.dark {
     background: var(--accent);
     transform: scale(0.95);
 }
+
+.theme-toggle:focus {
+    outline: 5px solid lime !important;
+}
