@@ -4,12 +4,17 @@ const navLinks = document.querySelectorAll(".navigation a");
 
 hamburger.addEventListener("click", (event) => {
     event.stopPropagation();
+
     navigation.classList.toggle("active");
+
+    // remove focus after click
+    hamburger.blur();
 });
 
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         navigation.classList.remove("active");
+        hamburger.blur();
     });
 });
 
@@ -20,6 +25,7 @@ document.addEventListener("click", (event) => {
 
     if (!clickedInsideMenu && !clickedHamburger) {
         navigation.classList.remove("active");
+        hamburger.blur();
     }
 
 });

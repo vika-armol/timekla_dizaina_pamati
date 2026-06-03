@@ -52,3 +52,7 @@
 .hamburger:hover {
     color: var(--accent);
 }
+
+.hamburger.active {
+    color: var(--accent);
+}
