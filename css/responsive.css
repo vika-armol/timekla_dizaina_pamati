@@ -160,14 +160,14 @@
     }
 
     .bag-text p {
-        font-size: 0.92rem;
+        font-size: 1rem;
         line-height: 1.6;
         margin: 0;
     }
 
     .bag-item:hover {
-    transform: none !important;
-}
+        transform: none !important;
+    }
 
     /* JOURNEY SECTION */
 
@@ -219,11 +219,9 @@
     }
 
     .journey-content p {
-        font-size: 0.92rem;
+        font-size: 1rem;
         line-height: 1.6;
     }
-
-    /* SCHEDULE SECTION */
 
     /* SCHEDULE SECTION */
 
@@ -272,20 +270,22 @@
         opacity: 0.8;
     }
 
-    .schedule-scroll-hint {
-        display: block;
-        text-align: center;
-        margin-top: 15px;
-        color: var(--section-desk);
-        opacity: 0.8;
-    }
-
     .schedule-scroll-hint-up {
         display: block;
         text-align: center;
         margin-bottom: 15px;
         color: var(--section-desk);
         opacity: 0.8;
+    }
+
+    .schedule-scroll-hint-text1 {
+        display: none;
+    }
+
+    .schedule-scroll-hint-text {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        margin-top: -10px;
     }
 
     .schedule-wrapper {
@@ -398,7 +398,9 @@
     }
 
     .section-description {
-        display: none;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        font-size: 1rem;
     }
 
     .bubble-panel {
@@ -600,6 +602,10 @@
     .info-card p {
         padding-left: 18px;
         padding-right: 18px;
+    }
+
+    .info-card p{
+        font-size: 1rem;
     }
 
     .info-card:hover {

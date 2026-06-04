@@ -33,6 +33,7 @@
 .info-card p {
     padding: 0 20px 25px;
     line-height: 1.7;
+    font-size: 1.05rem;
 }
 
 .highlight-card {

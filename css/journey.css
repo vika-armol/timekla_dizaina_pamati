@@ -37,6 +37,12 @@
     border-radius: 20px;
 }
 
+.journey-content p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
 .journey-content h3 {
     margin-bottom: 15px;
     font-family: "Poppins", sans-serif;

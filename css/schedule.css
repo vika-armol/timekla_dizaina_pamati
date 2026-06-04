@@ -1,16 +1,16 @@
 .lectures-section {
-    background:rgba(255,255,255,0.12);
+    background: rgba(255, 255, 255, 0.12);
 }
 
 /* WRAPPER */
 
 .schedule-wrapper {
     overflow-x: auto;
-    background: rgba(255,255,255,0.35);
+    background: rgba(255, 255, 255, 0.35);
     border-radius: 35px;
     padding: 0px 30px 30px 30px;
     backdrop-filter: blur(18px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
 /* GRID */
@@ -87,7 +87,7 @@
     border-radius: 22px;
     color: white;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
     transition: 0.3s ease;
 }
 
@@ -112,42 +112,35 @@
 .event-block:hover .more-text {
     opacity: 0.9;
 }
+
 /* EVENT COLORS */
 
 .event-block.primary {
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #45151b,
-            #6d2630
-        );
+            #6d2630);
 }
 
 .event-block.secondary {
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #c74e51,
-            #df6b6d
-        );
+            #df6b6d);
 }
 
 .event-block.pink {
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #ea9dae,
-            #f3b4c1
-        );
+            #f3b4c1);
 }
 
 .event-block.orange {
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #f99256,
-            #ffad7f
-        );
+            #ffad7f);
 }
 
 /* EVENT TEXT */
@@ -170,4 +163,23 @@
 
 .schedule-scroll-hint-up {
     display: none;
+}
+
+.schedule-scroll-hint-text1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--section-desk);
+    opacity: 0.8;
+    margin-top: -25px;
+    font-size: 1.05rem;
+}
+
+.schedule-scroll-hint-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--section-desk);
+    opacity: 0.8;
+    font-size: 1.05rem;
 }

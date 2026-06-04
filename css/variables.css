@@ -8,7 +8,6 @@ html {
     scroll-behavior: smooth;
     min-height: 100%;
     background-color: var(--primary);
-    overflow-x: hidden;
 }
 
 body {
@@ -17,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--primary);
-    overflow-x: hidden;
     color: var(--text);
     font-family: "Times New Roman", serif;
     line-height: 1.7;
