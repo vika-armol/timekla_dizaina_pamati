@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: var(--primary);
+    background-color: #45151b;
     color: var(--text);
     font-family: "Times New Roman", serif;
     line-height: 1.7;
