@@ -6,7 +6,7 @@
             rgba(69, 21, 27, 0.45),
             rgba(69, 21, 27, 0.45)
         ),
-        url("../photos/hero.jpeg"), alt="Noskaņas attēls";
+        url("../photos/hero.jpeg");
 
     background-size: cover;
     background-position: center 49%;
