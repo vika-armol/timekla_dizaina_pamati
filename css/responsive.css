@@ -53,6 +53,7 @@
         background-image:
             linear-gradient(rgba(69, 21, 27, 0.6), rgba(69, 21, 27, 0.6)),
             url("../photos/hero.jpeg");
+        height: 100vh;
     }
 
     .hero-content {
